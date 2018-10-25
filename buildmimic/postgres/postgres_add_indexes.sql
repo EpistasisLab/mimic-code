@@ -108,6 +108,42 @@ CREATE INDEX chartevents_16_idx01 ON chartevents_16 (itemid);
 DROP INDEX IF EXISTS chartevents_17_idx01;
 CREATE INDEX chartevents_17_idx01 ON chartevents_17 (itemid);
 
+DROP INDEX IF EXISTS chartevents_1_idx02;
+CREATE INDEX chartevents_1_idx02 ON chartevents_1 (hadm_id);
+DROP INDEX IF EXISTS chartevents_2_idx02;
+CREATE INDEX chartevents_2_idx02 ON chartevents_2 (hadm_id);
+DROP INDEX IF EXISTS chartevents_3_idx02;
+CREATE INDEX chartevents_3_idx02 ON chartevents_3 (hadm_id);
+DROP INDEX IF EXISTS chartevents_4_idx02;
+CREATE INDEX chartevents_4_idx02 ON chartevents_4 (hadm_id);
+DROP INDEX IF EXISTS chartevents_5_idx02;
+CREATE INDEX chartevents_5_idx02 ON chartevents_5 (hadm_id);
+DROP INDEX IF EXISTS chartevents_6_idx02;
+CREATE INDEX chartevents_6_idx02 ON chartevents_6 (hadm_id);
+DROP INDEX IF EXISTS chartevents_7_idx02;
+CREATE INDEX chartevents_7_idx02 ON chartevents_7 (hadm_id);
+DROP INDEX IF EXISTS chartevents_8_idx02;
+CREATE INDEX chartevents_8_idx02 ON chartevents_8 (hadm_id);
+DROP INDEX IF EXISTS chartevents_9_idx02;
+CREATE INDEX chartevents_9_idx02 ON chartevents_9 (hadm_id);
+DROP INDEX IF EXISTS chartevents_10_idx02;
+CREATE INDEX chartevents_10_idx02 ON chartevents_10 (hadm_id);
+DROP INDEX IF EXISTS chartevents_11_idx02;
+CREATE INDEX chartevents_11_idx02 ON chartevents_11 (hadm_id);
+DROP INDEX IF EXISTS chartevents_12_idx02;
+CREATE INDEX chartevents_12_idx02 ON chartevents_12 (hadm_id);
+DROP INDEX IF EXISTS chartevents_13_idx02;
+CREATE INDEX chartevents_13_idx02 ON chartevents_13 (hadm_id);
+DROP INDEX IF EXISTS chartevents_14_idx02;
+CREATE INDEX chartevents_14_idx02 ON chartevents_14 (hadm_id);
+DROP INDEX IF EXISTS chartevents_15_idx02;
+CREATE INDEX chartevents_15_idx02 ON chartevents_15 (hadm_id);
+DROP INDEX IF EXISTS chartevents_16_idx02;
+CREATE INDEX chartevents_16_idx02 ON chartevents_16 (hadm_id);
+DROP INDEX IF EXISTS chartevents_17_idx02;
+CREATE INDEX chartevents_17_idx02 ON chartevents_17 (hadm_id);
+
+
 -- only create these indices if we have sufficient partitions
 DO $$
 BEGIN
